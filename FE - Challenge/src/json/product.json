@@ -1,0 +1,96 @@
+[
+  {
+    "id": "1",
+    "title": "Super Mario Bros.",
+    "image": "../assets/Cards/green.svg",
+    "description": "A classic platformer game featuring Mario and Luigi.",
+    "price": "$450"
+  },
+  {
+    "id": "2",
+    "title": "The Legend of Zelda",
+    "image": "../assets/Cards/green.svg",
+    "description": "An action-adventure game that follows the hero Link.",
+    "price": "$450"
+  },
+  {
+    "id": "3",
+    "title": "Minecraft",
+    "image": "../assets/Cards/green.svg",
+    "description": "A sandbox game that allows players to build and explore virtual worlds.",
+    "price": "$450"
+  },
+  {
+    "id": "4",
+    "title": "Call of Duty",
+    "image": "../assets/Cards/snowball.svg",
+    "description": "A first-person shooter game set in various historical and modern warfare scenarios.",
+    "price": "$450"
+  },
+  {
+    "id": "5",
+    "title": "Fortnite",
+    "image": "../assets/Cards/snowball.svg",
+    "description": "A battle royale game that features building mechanics and colorful graphics."
+  },
+  {
+    "id": "6",
+    "title": "Overwatch",
+    "image": "../assets/Cards/snowball.svg",
+    "description": "A team-based multiplayer first-person shooter with a diverse cast of characters."
+  },
+  {
+    "id": "7",
+    "title": "The Elder Scrolls V: Skyrim",
+    "image": "../assets/Cards/group.svg",
+    "description": "An open-world RPG set in a fantasy universe filled with dragons and magic."
+  },
+  {
+    "id": "8",
+    "title": "Grand Theft Auto V",
+    "image": "../assets/Cards/group.svg",
+    "description": "An action-adventure game that allows players to explore a fictional city and engage in various criminal activities."
+  },
+  {
+    "id": "9",
+    "title": "Pokemon Red/Blue",
+    "image": "../assets/Cards/group.svg",
+    "description": "The original Pokemon games where players capture and train creatures called Pokemon."
+  },
+  {
+    "id": "10",
+    "title": "Tetris",
+    "image": "../assets/Cards/driver.svg",
+    "description": "A tile-matching puzzle game that has become a cultural phenomenon."
+  },
+  {
+    "id": "11",
+    "title": "Sonic the Hedgehog",
+    "image": "../assets/Cards/driver.svg",
+    "description": "A fast-paced platformer game featuring the blue hedgehog, Sonic."
+  },
+  {
+    "id": "12",
+    "title": "Halo: Combat Evolved",
+    "image": "../assets/Cards/driver.svg",
+    "description": "A sci-fi first-person shooter that follows the story of Master Chief."
+  },
+  {
+    "id": "13",
+    "title": "The Witcher 3: Wild Hunt",
+    "image": "../assets/Cards/armor.svg",
+    "description": "An open-world RPG that follows the adventures of Geralt of Rivia."
+  },
+  {
+    "id": "14",
+    "title": "Red Dead Redemption 2",
+    "image": "../assets/Cards/armor.svg",
+    "description": "An action-adventure game set in the American Wild West."
+  },
+  {
+    "id": "15",
+    "title": "Street Fighter II",
+    "image": "../assets/Cards/armor.svg",
+    "description": "A classic fighting game that features iconic characters and special moves."
+  }
+]

@@ -1,0 +1,106 @@
+:root{
+    --listTextColor: #B6B6B6;
+    --cardsGreencolor: #335757;
+    --addCartButton: #454DA8;
+    --backgroundCartButton: #5762D5;
+}
+.footer-container{
+    padding-top: 60px;
+    background-color: #303141;
+}
+.footer-container__list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #2B2C3B;
+    
+}
+.list__payments{
+    display: flex;
+    margin: 20px 15px 20px 30px;
+    gap: 30px;
+}
+.visa{
+    width: 90px;
+}
+.mastercard{
+    width: 50px;
+}
+.americanExpress{
+    width: 160px;
+    margin: -20px;
+}
+.skrill{
+    width: 100px;
+}
+.payments__cryptos{
+    display: flex;
+    height: 30px;
+}
+.networks-container{
+    padding-left: 43%;
+}
+.networks-container img{
+    width: 40px;
+    margin: 10px 10px;
+}
+.about-container{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 90px;
+    background-color: #303141;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    border-top: #FFFFFF;
+}
+.logo-email a{
+    display: flex;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.logo-email img{
+    margin-bottom: 9%;
+    margin-top: -9%;
+}
+h4{
+    color: #FFFFFF;
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+.footer-list-1{
+    list-style: none;
+    color: var(--listTextColor);
+    line-height: 25px;
+}
+.footer-list-2{
+    list-style: none;
+    color: var(--listTextColor);
+    line-height: 25px;
+}
+.footer-list-3{
+    list-style: none;
+    color: var(--listTextColor);
+    line-height: 25px;
+}
+.about-container__stars{
+    display: flex;
+
+}
+.border{
+    height: 2px;
+    border-bottom: 2px solid #4c6085;
+    width: 80%;
+    margin: 0 auto;
+}
+.stars__container{
+    margin-top: 5px;
+}
+.stars__text{
+    margin-top: 5px;
+    color: var(--listTextColor);
+}

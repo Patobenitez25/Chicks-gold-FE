@@ -1,0 +1,80 @@
+:root{
+    --headerColor: #FFFFFF;
+    --cardTextColor: #CBCBCF;
+    --signInButton: #38DE9B
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main-div{
+    background-color: #303141;
+    color: var(--headerColor);
+    display: flex;
+    justify-content: space-between;
+    align-content: baseline;
+    font-size: 15px;
+    padding-top: 5px;
+    border-radius: 4px;
+    outline: 1px solid #404a65;
+}
+.main-div__logo-navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding-top: 10px;
+    
+}
+.logo-container{
+    border-right: 1px solid #FFFFFF;
+    height: 40px;
+    margin-right: 0 !important;
+    padding: 0 36px !important;
+}
+.logo-navbar__logo{
+    max-width: 125px;
+    margin-left: 30px;
+    margin-bottom: 34px;
+}
+.navbar__list{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+    list-style: none;
+}
+.list__child{
+    margin: 10px 15px;
+}
+
+.main-div__list-container{
+    margin-right: 5%;
+}
+.list-container__list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.list__child-2{
+    margin: 20px;
+    text-align: center;
+}
+.child-2__cartLogo{
+    width: 20px;
+    height: 20px;
+    padding-top: 6xp;
+}
+.cart{
+    display: flex;
+}
+.cart p{
+    margin-left: 10px;
+}
+.sign-button{
+    color: var(--headerColor);
+    text-decoration: none;
+
+}

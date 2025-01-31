@@ -1,0 +1,62 @@
+[
+        {
+          "id": "1",
+          "image": "../../public/Cards/zelda.svg"
+        },
+        {
+          "id": "2",
+          "image": "../../public/Cards/super-mario.png"
+        },
+        {
+          "id": "3",
+          "image": "../../public/Cards/minecraft.svg"
+        },
+        {
+          "id": "4",
+          "image": "../../public/Cards/fortnite.svg"
+        },
+        {
+          "id": "5",
+          "image": ".../../public/Cards/call-of-duty.svg"
+        },
+        {
+          "id": "6",
+          "image": "../../public/Cards/animal-crossing.svg"
+        },
+        {
+          "id": "7",
+          "image": "../../public/Cards/Cyberpunk_2077.svg"
+        },
+        {
+          "id": "8",
+          "image": "../../public/Cards/among-us.svg"
+        },
+        {
+          "id": "9",
+          "image": "../../public/Cards/EN_The-Witcher-3_Logo-Black_RGB.svg"
+        },
+        {
+          "id": "10",
+          "image": "../../public/Cards/red-dead-redemption-2.svg"
+        },
+        {
+          "id": "11",
+          "image": "../../public/Cards/Halo_Infinite.svg"
+        },
+        {
+          "id": "12",
+          "image": "../../public/Cards/final-fantasy.svg"
+        },
+        {
+          "id": "13",
+          "image": "../../public/Cards/doom.svg"
+        },
+        {
+          "id": "14",
+          "image": "../../public/Cards/ghost of tsushima.svg"
+        },
+        {
+          "id": "15",
+          "image": "../../public/Cards/hades.svg"
+        }
+]
