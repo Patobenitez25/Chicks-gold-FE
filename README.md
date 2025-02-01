@@ -25,7 +25,7 @@ Esta aplicación permite a los usuarios interactuar con la plataforma **Chicks G
 
   
      Antes de ejecutar el proyecto de forma local, ir a .src/assets/cardLogos.json y realizar la siguiente modificacion:
-     veras que las rutas de los iconos tienen la forma './Cards/{icon}', esto fue modificado para el deploy en vercel del proyecto
+     veras que las rutas "src" de los iconos tienen la forma './Cards/{icon}', esto fue modificado para el deploy en vercel del proyecto
      reemplazar por '../../public/Cards/{icon}' para conseguir una correcta renderizacion de los elementos en forma local
 
      
