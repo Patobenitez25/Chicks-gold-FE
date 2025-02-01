@@ -1,7 +1,7 @@
 :root{
     --headerColor: #FFFFFF;
     --cardTextColor: #CBCBCF;
-    --signInButton: #38DE9B
+    --signInButton: #37DA97
 }
 *{
     padding: 0;
@@ -11,11 +11,12 @@
 }
 
 .main-div{
+    font-family: 'Roboto', serif;
     background-color: #303141;
     color: var(--headerColor);
     display: flex;
     justify-content: space-between;
-    align-content: baseline;
+    align-content: center;
     font-size: 15px;
     padding-top: 5px;
     border-radius: 4px;
@@ -27,6 +28,9 @@
     width: 50%;
     padding-top: 10px;
     
+}
+.burguer-logo{
+    display: none;
 }
 .logo-container{
     border-right: 1px solid #FFFFFF;
@@ -41,24 +45,30 @@
 }
 .navbar__list{
     display: flex;
+    padding-top: 5px;
     margin-left: 30px;
     align-items: center;
     list-style: none;
 }
 .list__child{
+    display: flex;
+    align-items: center;
+    gap: 2px;
     margin: 10px 15px;
 }
-
-.main-div__list-container{
-    margin-right: 5%;
+.list__child img{
+    width: 15px;
+    margin-bottom: 3px;
 }
+
 .list-container__list{
     display: flex;
     align-items: center;
     list-style: none;
 }
-
 .list__child-2{
+    display: flex;
+    gap: 5px;
     margin: 20px;
     text-align: center;
 }
@@ -67,14 +77,46 @@
     height: 20px;
     padding-top: 6xp;
 }
-.cart{
+.link-content{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
 }
-.cart p{
-    margin-left: 10px;
+.user-logo{
+    width: 25px;
 }
 .sign-button{
-    color: var(--headerColor);
-    text-decoration: none;
-
+    width: 88px;
+	background-color:#39E29D;
+	border-radius:10px;
+	cursor:pointer;
+	color:#1E1F32;
+	font-family:Arial;
+    font-size: 14px;
+    padding: 5px 8px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+}
+@media (width < 540px){
+    .main-div__logo-navbar{
+        justify-content: center;
+    }
+    .chicksLogo{
+        display: none;
+    }
+    .burguer-logo{
+        display: block;
+        width: 50px;
+        color: #fff;
+    }
+    .cart{
+        display: none;
+    }
+    .usd{
+        display: none;
+    }
+    .logo-container{
+        display: none;
+    }
 }

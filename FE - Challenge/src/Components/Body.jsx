@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import icons from '../assets/cardLogos.json';
 import { getProducts } from '../assets/api/products';
-import '../styles/Main.css';
+import '../styles/Body.css';
 import cartLogo from '../assets/cart.svg'
 
 export const Body = () => {
@@ -34,9 +34,9 @@ export const Body = () => {
     };
 
 return (
-    <div className='body-container'>
+    <main className='body-container'>
         <h1>Condimentum consectetur</h1>
-        <section className='products-container'>
+        <section className='gallery'>
             {product.map((product) => {
                 const productId = String(product.id);
                 const icon = icons.find((icon) => String(icon.id) === productId);
@@ -44,11 +44,12 @@ return (
                     <div className={`container-card element-${productId}`} key={product.id}>
                         <div className="green-counter">
                             <span className='greenDot'> 🟢 ON SALE </span>
+                            
                             <div className="counter">
                             <span className="count">{counters[productId] || 0}</span>
                                 <div className="arrows-container">
-                                    <button onClick={() => updateCounter(productId, 1)} className="arrow up">▲</button>
-                                    <button onClick={() => updateCounter(productId, -1)} className="arrow down">▼</button>
+                                    <button onClick={() => updateCounter(productId, 1)} className="arrows up">▲</button>
+                                    <button onClick={() => updateCounter(productId, -1)} className="arrows down">▼</button>
                                 </div>
                             </div>
                         </div>
@@ -70,6 +71,6 @@ return (
                 );
             })}
         </section>
-    </div>
+    </main>
 );
 };

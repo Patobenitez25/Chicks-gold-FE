@@ -4,6 +4,12 @@
     --addCartButton: #454DA8;
     --backgroundCartButton: #5762D5;
 }
+.arrow{
+    display: none;
+}
+.img-3{
+    display: none;
+}
 .footer-container{
     padding-top: 60px;
     background-color: #303141;
@@ -19,6 +25,8 @@
 }
 .list__payments{
     display: flex;
+    align-items: center;
+    flex-wrap: wrap;
     margin: 20px 15px 20px 30px;
     gap: 30px;
 }
@@ -35,12 +43,12 @@
 .skrill{
     width: 100px;
 }
-.payments__cryptos{
-    display: flex;
+.cryptos{
     height: 30px;
 }
 .networks-container{
-    padding-left: 43%;
+    display: flex;
+    justify-content: center;
 }
 .networks-container img{
     width: 40px;
@@ -103,4 +111,68 @@ h4{
 .stars__text{
     margin-top: 5px;
     color: var(--listTextColor);
+}
+
+@media (max-width: 1230px) {
+    .arrow{
+        display: block;
+    }
+    .img-3{
+        display: block;
+    }
+    
+
+    .logo-navbar__navbar {
+        display: none;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 15px 0;
+        text-align: center;
+    }
+
+    .logo-navbar__navbar.open {
+        display: block;
+    }
+    
+
+    .navbar__list {
+        flex-direction: column;
+    }
+
+    .navbar__list .list__child {
+        padding: 10px;
+        font-size: 18px;
+    }
+    .about-container{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .logo-email{
+        margin-top: 20px;
+    }
+    .logo-email img{
+        padding-left: 15px;
+    }
+    .logo-email a{
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+    .about-container li{
+        display: none;
+    }
+    .footer-list{
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        border-bottom: 1px solid #4C6085
+    }
+    
+    .border{
+        width: 100%;
+    }
 }
