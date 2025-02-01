@@ -5,7 +5,7 @@ Chicks-gold-FE es la aplicación frontend del proyecto **Chicks Gold**, desarrol
 Esta aplicación permite a los usuarios interactuar con la plataforma **Chicks Gold** de manera intuitiva y eficiente.  
 
 🌍 **Proyecto desplegado en:**  
-🔗 [Chicks Gold]([https://chicksgold-dv11rl5v6-patricios-projects-a4e50488.vercel.app/](https://chicks-gold-frontend-eight.vercel.app/))
+🔗 [Chicks Gold]((https://chicks-gold-frontend-eight.vercel.app/))
 
 ---
 
