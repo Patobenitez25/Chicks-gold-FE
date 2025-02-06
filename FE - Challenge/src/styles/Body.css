@@ -125,6 +125,7 @@ h1{
     padding: 10px;
     width: 73.5px;
     color: var(--headerColor);
+    border: none;
 }
 .add{
     background-color: var(--addCardButton);
